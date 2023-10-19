@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-zb0w
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/build-e2e-bdcr-tenant/test-app-buwj/devfile-sample-python-basic-zb0w@sha256:9eccf201666a852bf76e5f0f097483f9cdad59fe5050dc37424a2a637ae55307
+        name: my-python
+        resources: {}
+status: {}
